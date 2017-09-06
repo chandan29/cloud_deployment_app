@@ -1,0 +1,27 @@
+{
+  "name": "cloud_deployment_app",
+  "version": "1.0.0",
+  "description": "CMPE281_cloud_deployment",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "httpster": "^1.0.3"
+  },
+  "devDependencies": {
+"httpster": "^1.0.1"
+}
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandan29/cloud_deployment_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandan29/cloud_deployment_app/issues"
+  },
+  "homepage": "https://github.com/chandan29/cloud_deployment_app#readme"
+}
