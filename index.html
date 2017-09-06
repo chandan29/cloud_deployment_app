@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Team Note by TheNegav</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <h1 class="header center orange-text">TeamNote</h1>
+
+
+      <span id="postIDreturned"></span>
+    </br></br>
+	<h4>What's the most useful thing that you learned today?</h4>
+    <textarea id ="postText" placeholder="Share a gem of knowledge..."></textarea>
+    <span id="charCounter">Characters Max: 180</span>
+      
+      
+      
+      <div class="row center">
+        <h5 class="header col s12 light">Author: 
+            <select id="voiceSelected" class="btn waves-effect waves-light orange">
+        <option value="Anonymous">Anonymous</option>
+        <option value="Siva">Siva</option>
+        <option value="Tobi">Tobi</option>
+        <option value="Abhi">Abhi</option>
+        <option value="Chandan">Chandan</option> 
+      </select>
+      <span id="buttonSpan"class="row center">
+            <input type="submit" value="Note it !" id="sayButton" class="btn-large waves-effect waves-light orange">
+
+      </span>
+  </h5>
+      </div>
+
+      
+    
+      <span id="postIDreturned" class="row center"></span>
+      
+            <div class="row center">
+			<h4>Read what others have learned today</h4>
+            <input type="submit" value="Read All !" id="searchButton" class="btn-large waves-effect waves-light orange">
+
+      </div>
+      
+      <br><br>
+
+    </div>
+    
+
+    
+    <div class="row center">
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for keywords..." display="none">
+
+          <table id="posts" class="row center">
+        <colgroup>
+          <col style="width:10%">
+          <col style="width:40%">
+          <col style="width:20%">
+          <col style="width:30%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>Author</th>
+            <th>Note</th>
+            <th>Keywords</th>
+            <th>Time</th>
+          </tr>
+        </tbody>
+      </table>
+</div>
+  </div>
+	      <script src="js/scripts.js"></script>
+
+  </body>
+</html>

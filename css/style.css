@@ -1,0 +1,61 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+#myInput{
+	visibility:hidden;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+#voiceSelected{
+	width:50%;
+	text-align:left;
+}
+
+#buttonSpan{
+	margin-left:5em
+}
+
+#posts {
+	font-weight:normal;
+	color:#000000;
+	word-spacing:4pt;
+	font-size:10px;
+	text-align:left;
+	font-family:verdana, sans-serif;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#posts th {
+	background-color: #FF9900;
+	color: white;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+#posts td {
+	padding: 8px;
+	border-color: #666666;
+	background-color: #ffffff;
+	border-bottom: 1px solid #ddd;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 75%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
